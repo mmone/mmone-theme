@@ -1,0 +1,397 @@
+/*
+ Theme Name:   Twenty Seventeen Mmone
+ Theme URI:    http://mmone.de/twenty-seventeen-mm/
+ Description:  Twenty Seventeen Theme @mmone.de
+ Author:       Martin Mühlhäuser
+ Author URI:   http://mmone.de
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-seventeen-mm
+*/
+/*
+.single-featured-image-header {
+	display: none;
+}*/
+
+/* --- override google ads inline style --- */
+
+#aswift_0_anchor[style] {
+   background-color: white !important;
+}
+
+/* --- template-parts / site-info --- */
+
+.site-info {
+	font-size: 0.7em;
+	text-align: left;
+}
+
+.social-top {
+	display: block;
+	position: absolute;
+	right: 0px;
+	width: 300px;
+	height: 100px;
+	background-color: red;
+}
+
+/* --- front-page -------------------- */
+
+/* featured posts */
+
+.sub-header {
+	display: block;
+	margin-top: 0.8em;
+	width: 100%;	
+	height: 400px;
+}
+
+.featured-posts {
+	float:left;
+	width: 49%; height: 100%;
+	border: 1px solid;
+	border-radius: 3px;
+	background-color: #fff;
+	border-color: #efefff #bcbccc #bcbccc #efefff;
+	box-shadow: 1px 1px 2px 0px #D0D0D0;
+}
+
+.featured-posts img {
+	margin-top: 3em;
+}
+
+.featured-title {
+	position: absolute;
+	margin: 1.2em 0.8em 0 0.8em;
+	text-transform: uppercase;
+	font-size: 0.73em;
+	font-weight: 600;
+	color: #888;
+}
+
+.featured-excerpt {
+	display: block;
+	margin: 0.7em 0.7em 0.7em 0.7em;
+	font-size: 0.65em;
+	color: #333;
+	overflow-y: hidden;
+	text-overflow: ellipsis;
+}
+
+/* tag cloud */
+.tag-cloud {
+	float: right;
+	width: 49%;
+	height: 100%;
+	line-height: 1.4em;
+	overflow: hidden;
+}
+
+.tag-cloud a:hover {
+	color: #49b2f8;
+}
+
+/* tag cloud widget*/
+.tag-cloud-widget {
+	float: right;
+	width: 100%;
+	height: 100%;
+	line-height: 1.6em;
+	overflow: hidden;
+	text-decoration: none;
+}
+
+.tag-cloud-widget a a:hover, a:visited, a:link, a:active {
+	text-decoration: none;
+	border: none;
+}
+
+.tag-cloud-widget a:hover {
+	color: #49b2f8;
+}
+
+/* Primary Title */
+h2.widget-title,
+h1.frontpage-heading {
+	color: #bbb;
+	font-size: 0.6em;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	line-height: 2.6em;
+	text-transform: uppercase;
+}
+
+div.recent-posts {
+	width: 100%;
+}
+
+.recent-post-pane {
+	float: left;
+	position: relative;
+	display: inline-block;
+	width:24%;
+	padding-bottom: 24%;
+	border: 1px solid;
+	margin: 0 1% 1% 0;
+	border-radius: 3px;
+	background-color: #fff;
+	border-color: #efefff #bcbccc #bcbccc #efefff;
+	box-shadow: 1px 1px 2px 0px #D0D0D0;
+	transition: background-color 0.1s linear;
+	color: #666;
+}
+
+.recent-post-title {
+	position: absolute;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	line-height: 1.3em;
+	margin: 0.9em 0.6em 0 0.6em;
+}
+
+.recent-post-pane img {
+	position: absolute;
+	width: 100%	;
+	top: 25%;
+}
+
+.recent-post-pane.more span {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+/*
+.recent-post-pane .more p {
+	display: inline-block;
+	position: relative;
+	bottom: 3em;
+	width: 100%;
+	text-align: center;
+}*/
+
+.recent-post-pane:hover,
+.recent-post-pane:hover p {
+	background-color: #1982d1;
+	color: #f8f8f8;
+}
+
+.recent-post-pane .ad {
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 25px;
+}
+
+.recent-post-pane.nohover:hover {
+	background-color: #fefefe;
+}
+
+.recent-post-pane .attachment-recent-post-thumb {
+	position: absolute;
+	bottom: 0.8em;
+}
+
+.bookmark-pane {
+	float: left;
+	position: relative;
+	display: inline-block;
+	width: 48.9%;
+	padding-bottom: 8%;
+	border: 1px solid;
+	margin: 0 1% 1% 0;
+	border-radius: 3px;
+	background-color: #fff;
+	border-color: #efefff #bcbccc #bcbccc #efefff;
+	box-shadow: 1px 1px 2px 0px #D0D0D0;
+	transition: background-color 0.1s linear;
+	color: #666;
+}
+
+.bookmark-title {
+	position: absolute;
+	margin: 0.5em;
+	text-transform: uppercase;
+	font-size: 0.75em;
+	line-height: 1.2em;
+}
+
+.bookmark-tags {
+	position: absolute;
+	bottom: 0.5em;
+	margin: 0 0.7em 0 0.7em;
+	text-transform: lowercase;
+	font-size: 0.47em;
+}
+
+.bookmark-pane.more span {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+.bookmark-pane:hover,
+.bookmark-pane:hover p {
+	background-color: #1982d1;
+	color: #f8f8f8;
+}
+
+.widget-post-pane {
+	float: left;
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	padding-bottom: 7%;
+	border: 1px solid;
+	margin: 0 0 5% 0;
+	border-radius: 3px;
+	background-color: #fff;
+	border-color: #efefff #bcbccc #bcbccc #efefff;
+	box-shadow: 1px 1px 2px 0px #D0D0D0;
+	transition: background-color 0.1s linear;
+	color: #666;
+}
+
+.widget-note-pane {
+	float: left;
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	padding: 0 0 2.5% 0;
+	border: 1px solid;
+	margin: 0 0 5% 0;
+	border-radius: 3px;
+	background-color: #fff;
+	border-color: #efefff #bcbccc #bcbccc #efefff;
+	box-shadow: 1px 1px 2px 0px #D0D0D0;
+	transition: background-color 0.1s linear;
+	color: #666;
+}
+
+.widget-note-pane svg {
+}
+
+.widget-note-pane a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+	border-bottom: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.widget-post-title {
+	margin: 0.6em 0.6em 0.6em 1em;
+}
+
+.widget-post-pane img {
+	width: 100%;
+}
+
+@media screen and (max-width: 48em) {
+	.recent-post-pane {
+		width:100%;
+		padding-bottom: 70%;
+		margin: 0 0 1em 0;
+	}
+	
+	.recent-post-pane.more {
+		padding-bottom: 20%;
+	}
+	
+	.recent-post-pane img {
+		top: 13%;
+	}
+	
+	.bookmark-pane {
+		width:100%;
+		padding-bottom: 18%;
+	}
+	
+	.sub-header  {
+		display: none;
+	}
+}
+
+.site-header .navigation-top .menu-scroll-down {
+	display: none;
+}
+
+/* ------ top nav widget and search form ----- */
+
+.mmone-top-widgets {
+	z-index: 200000;
+	float: right;
+	position: absolute;
+	display: inline-block;
+	bottom: 1em;
+	right: 3em;
+}
+
+input[type="search"] {
+	padding: 0.4em;
+	border: 1px solid #eee;
+	background: transparent;
+}
+
+.search-submit {
+	background-color: #efefef;
+	border-radius: 1px;
+	border: 1px solid #eee;
+}
+
+.search-form .search-submit .icon {
+	height: 18px;
+	top: -5px;
+	width: 18px;
+	fill: #c5c5c5;
+}
+
+@media screen and (max-width: 48em)  {
+	.mmone-top-widgets {
+		display: none;
+	}
+	/*
+	.mmone-top-widgets {
+		z-index: 200000;
+		float: right;
+		position: absolute;
+		display: inline-block;
+		top: 1.5em;
+		right: 1em;
+	}
+	
+	input[type="search"] {
+		padding: 0.4em;
+		border: 1px solid #efefef;
+		background: rgba(1, 1, 1, 0.35);
+		color: white;
+	}
+	
+	input[type="search"]:focus {
+		color: white;
+	}
+	
+	::placeholder {
+		color: #c5c5c5;
+		opacity: 1;
+	}
+	
+	.search-field {
+		color:white;
+	}
+	
+	.search-form .search-submit .icon {
+		height: 18px;
+		top: -1px;
+		width: 18px;
+		fill: white;
+	} */
+}
+
+/* end ------ top nav widget and search form ----- */
+
