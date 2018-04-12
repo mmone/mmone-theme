@@ -1,3 +1,13 @@
+<?php
+/**
+ * @package WordPress
+ * @subpackage Twenty_Seventeen_mm
+ * @since 1.0
+ * @version 1.0
+ * @author Martin Muehlhaeuser
+ */
+?>
+ 
 <div class="featured-posts">
 <?php
 $sticky = get_option( 'sticky_posts' );

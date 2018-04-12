@@ -1,14 +1,13 @@
 <?php
 /**
- * Displays footer site info
- *
  * @package WordPress
  * @subpackage Twenty_Seventeen_mm
  * @since 1.0
  * @version 1.0
+ * @author Martin Muehlhaeuser
  */
-
 ?>
+
 <div class="site-info">
 &copy; by <a href="http://blog.mmone.de/about">mmone</a>
 </br>

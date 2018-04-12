@@ -1,3 +1,13 @@
+<?php
+/**
+ * @package WordPress
+ * @subpackage Twenty_Seventeen_mm
+ * @since 1.0
+ * @version 1.0
+ * @author Martin Muehlhaeuser
+ */
+?>
+
 <div class="tag-cloud"><!-- tag-cloud -->
 	<h1 class="frontpage-heading"><?php _e( 'Tags', 'twentyseventeen' ); ?></h1>
 	<?php

@@ -1,4 +1,13 @@
 <?php
+/**
+ * Displays top navigation
+ *
+ * @package WordPress
+ * @subpackage Twenty_Seventeen_mm
+ * @since 1.0
+ * @version 1.0
+ * @author Martin Muehlhaeuser
+ */
 
 class RecentPostWidget extends WP_Widget {
  

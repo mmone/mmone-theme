@@ -1,20 +1,16 @@
 /*
  Theme Name:   Twenty Seventeen Mmone
- Theme URI:    http://mmone.de/twenty-seventeen-mm/
+ Theme URI:    https://github.com/mmone/mmone-theme
  Description:  Twenty Seventeen Theme @mmone.de
- Author:       Martin Mühlhäuser
- Author URI:   http://mmone.de
+ Author:       Martin Muehlhaeuser
+ Author URI:   http://blog.mmone.de
  Template:     twentyseventeen
  Version:      1.0.0
- License:      GNU General Public License v2 or later
- License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ License:      GNU General Public License v3 or later
+ License URI:  http://www.gnu.org/licenses/gpl-3.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-seventeen-mm
 */
-/*
-.single-featured-image-header {
-	display: none;
-}*/
 
 /* --- override google ads inline style --- */
 
@@ -355,42 +351,6 @@ input[type="search"] {
 	.mmone-top-widgets {
 		display: none;
 	}
-	/*
-	.mmone-top-widgets {
-		z-index: 200000;
-		float: right;
-		position: absolute;
-		display: inline-block;
-		top: 1.5em;
-		right: 1em;
-	}
-	
-	input[type="search"] {
-		padding: 0.4em;
-		border: 1px solid #efefef;
-		background: rgba(1, 1, 1, 0.35);
-		color: white;
-	}
-	
-	input[type="search"]:focus {
-		color: white;
-	}
-	
-	::placeholder {
-		color: #c5c5c5;
-		opacity: 1;
-	}
-	
-	.search-field {
-		color:white;
-	}
-	
-	.search-form .search-submit .icon {
-		height: 18px;
-		top: -1px;
-		width: 18px;
-		fill: white;
-	} */
 }
 
 /* end ------ top nav widget and search form ----- */

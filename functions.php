@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * @package WordPress
+ * @subpackage Twenty_Seventeen_mm
+ * @since 1.0
+ * @version 1.0
+ * @author Martin Muehlhaeuser
+ */
+
 include 'recent-post-widget.php';
 include 'tags-widget.php';
 

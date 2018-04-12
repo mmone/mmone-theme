@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * @package WordPress
+ * @subpackage Twenty_Seventeen_mm
+ * @since 1.0
+ * @version 1.0
+ * @author Martin Muehlhaeuser
+ */
+
 class TagsWidget extends WP_Widget {
  
     public function __construct() {
