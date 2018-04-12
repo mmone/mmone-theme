@@ -15,3 +15,4 @@
 Dear reader. Not all of the pictures and movies shown on this blog are of my own copyright<br>
 If your copyright is violated here and you wish the pictures or movies removed, do not hesitate to <a href="http://blog.mmone.de/about">contact</a> me.
 </div><!-- .site-info -->
+<a href="https://github.com/mmone/mmone-theme">wordpress theme by mmone</a>
