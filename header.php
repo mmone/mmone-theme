@@ -14,19 +14,6 @@
 
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js no-svg">
-<script type="text/javascript">
- var _paq = _paq || [];
- _paq.push(['trackPageView']);
- _paq.push(['enableLinkTracking']);
- (function() {
-   var u="//mmone.de/scope/";
-   _paq.push(['setTrackerUrl', u+'js/']);
-   _paq.push(['setSiteId', '1']);
-   var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-   g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'js/'; s.parentNode.insertBefore(g,s);
- })();
-</script>
-<noscript><p><img src="http://mmone.de/scope/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
